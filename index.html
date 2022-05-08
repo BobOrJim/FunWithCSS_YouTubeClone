@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Clone</title>
+    <link rel="icon" type="image/x-icon" href="favicon_96x96.png">
+
+    <!-- Font: https://fonts.google.com/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+    <!-- Ikoner: - MaterialUI -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/sub-header.css " />
+    <link rel="stylesheet" href="./css/aside.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <link rel="stylesheet" href="./css/global.css" />
+    <link rel="stylesheet" href="./css/variables-mediaQueries.css" />
+  </head>
+
+  <body>
+
+    <header class="">
+      <div class="header-section1 center">
+        <span class="material-icons hamburger-menu-icon">menu</span>
+        <img class="youtube-logo" src="./img/header/2_youtube-logo.svg" />
+        <div class="trade-mark">SE</div>
+      </div>
+      <div class="header-section2"></div>
+      <div class="header-section3">
+        <div class="search-wrapper">
+          <input class="search-bar-input" type="text" placeholder="Sök" />
+            <button class="keyboard-button">
+              <span class="material-icons keyBoard-icon">keyboard</span>
+            </button>
+          </input>
+        </div>
+        <button class="search-button">
+          <span class="material-icons-outlined search-icon">search</span>
+        </button>
+        <button class="voice-search-button button40x40">
+          <span class="material-icons voice-search-icon">mic</span>
+        </button>
+      </div>
+      <div class="header-section4"></div>
+      <div class="header-section5">
+        <button class="upload-button button40x40 center">
+          <span class="material-icons-outlined">add_circle_outline</span>
+        </button>
+        <button class="youtube-apps-button button40x40 center">
+          <span class="material-icons-outlined">apps</span>
+        </button>
+        <button class="notifications-button button40x40 center">
+          <span class="material-icons-outlined">notifications</span>
+        </button>
+        <button class="loggedin-button center">
+          <img class="loggedin-icon" src="./img/header/9_profile.jpg" />
+        </button>
+      </div>
+    </header>
+
+    <div class="sub-header center">
+      <div class="button-wrapper example">
+        <button class="asdf">Allt</button>
+        <button>Musik</button>
+        <button>Situationskomedi</button>
+        <button>Tecknade serier</button>
+        <button>Actionäventyrsspel</button>
+        <button>Nyligen uppladdat</button>
+        <button>Mixar</button>
+        <button>Live</button>
+        <button>Sett</button>
+        <button>Nytt för dig</button>
+      </div>
+    </div>
+
+    <aside class="center">
+      <nav class="">
+        <ul class="aside-ul">
+          <li class="aside-li center">
+            <span class="material-icons">home</span>
+            <p class="">Hem</p>
+          </li>
+          <li class="aside-li center">
+            <span class="material-icons-outlined">explore</span>
+            <p class="">Utforska</p>
+          </li>
+          <li class="aside-li center">
+            <span class="material-icons-outlined">smart_display</span>
+            <p class="">Shorts</p>
+          </li>
+          <li class="aside-li center">
+            <span class="material-icons-outlined">subscriptions</span>
+            <p class="">Prenumerationer</p>
+          </li>
+          <li class="aside-li center">
+            <span class="material-icons-outlined">video_library</span>
+            <p class="">Bibliotek</p>
+          </li>
+        </ul>
+      </nav>
+    </aside>
+
+    <main class="">
+      <div class="video-card-wrapper">
+        <!-- Video 1 -->
+        <div class="video-card">
+          <div class="video-card-top">
+            <img class="thumbnail-img" src="./img/video-cards/1_thumbnail.webp" />
+            <div class="video-time">1:07</div>
+          </div>
+          <div class="video-card-bottom">
+            <div class="">
+              <img class="profile-img" src="./img/video-cards/1_profile.jpg" />
+            </div>
+            <div class="video-card-bottom-right">
+              <p class="video-title"> Ukrainian BTR-4 Neutralizes Russian Troops in Civil Areas </p>
+              <p class="video-author"> The Daily Unseen </p>
+              <p class="video-stats"> 303 006 visningar &#183; för 3 dagar sedan </p>
+            </div>
+          </div>
+        </div>
+        <!-- Video 2 -->
+        <div class="video-card">
+          <div class="video-card-top">
+            <img class="thumbnail-img" src="./img/video-cards/2_thumbnail.webp" />
+            <div class="video-time">3:13:18</div>
+          </div>
+          <div class="video-card-bottom">
+            <div class="">
+              <img class="profile-img" src="./img/video-cards/2_profile.jpg" />
+            </div>
+            <div class="video-card-bottom-right">
+              <p class="video-title"> Learn ASP.NET Core 3.1 - Full Course for Beginners [Tutorial] </p>
+              <p class="video-author"> freeCodeCamp.org  </p>
+              <span class="material-icons check_circle">check_circle</span>
+              <p class="video-stats"> 1,2 mn visningar &#183; för 2 år sedan </p>
+            </div>
+          </div>
+        </div>
+        <!-- Video 3 -->
+        <div class="video-card">
+          <div class="video-card-top">
+            <img class="thumbnail-img" src="./img/video-cards/3_thumbnail.webp" />
+            <div class="video-time">30:45</div>
+          </div>
+          <div class="video-card-bottom">
+            <div class="">
+              <img class="profile-img" src="./img/video-cards/3_profile.jpg" />
+            </div>
+            <div class="video-card-bottom-right">
+              <p class="video-title"> How to Improve a Games Performance to 'Perfection' | 10 Tip </p>
+              <p class="video-author"> YagmanX </p>
+              <p class="video-stats"> 65 684 visningar &#183; för 8 månader sedan </p>
+            </div>
+          </div>
+        </div>
+        <!-- Video 4 -->
+        <div class="video-card">
+          <div class="video-card-top">
+            <img class="thumbnail-img" src="./img/video-cards/4_thumbnail.webp" />
+            <div class="video-time">1:18</div>
+          </div>
+          <div class="video-card-bottom">
+            <div class="">
+              <img class="profile-img" src="./img/video-cards/4_profile.jpg" />
+            </div>
+            <div class="video-card-bottom-right">
+              <p class="video-title"> Ukraine war: Drone footage shows aftermath of Ukraine helicopter </p>
+              <p class="video-author"> The Sun  </p>
+              <span class="material-icons check_circle">check_circle</span>
+              <p class="video-stats"> 3,1 mn visningar &#183; för 4 dagar sedan </p>
+            </div>
+          </div>
+        </div>
+        <!-- Video 5 -->
+        <div class="video-card">
+          <div class="video-card-top">
+            <img class="thumbnail-img" src="./img/video-cards/5_thumbnail.webp" />
+            <div class="video-time">1:51</div>
+          </div>
+          <div class="video-card-bottom">
+            <div class="">
+              <img class="profile-img" src="./img/video-cards/5_profile.jpg" />
+            </div>
+            <div class="video-card-bottom-right">
+              <p class="video-title"> Witness Vapes & Starts Driving During Testimony </p>
+              <p class="video-author"> Law&Crime Network  </p>
+              <span class="material-icons check_circle">check_circle</span>
+              <p class="video-stats"> 4,5 mn visningar &#183; för 9 timmar sedan </p>
+            </div>
+          </div>
+        </div>
+        <!-- Video 6 -->
+        <div class="video-card">
+          <div class="video-card-top">
+            <img class="thumbnail-img" src="./img/video-cards/6_thumbnail.webp" />
+            <div class="video-time">11:18</div>
+          </div>
+          <div class="video-card-bottom">
+            <div class="">
+              <img class="profile-img" src="./img/video-cards/6_profile.jpg" />
+            </div>
+            <div class="video-card-bottom-right">
+              <p class="video-title"> Let's Talk About GWs May Release Schedule </p>
+              <p class="video-author"> Empire of Wargames </p>
+              <p class="video-stats"> 1821 visningar &#183; för 1 dag sedan </p>
+            </div>
+          </div>
+        </div>
+        <!-- Video 7 -->
+        <div class="video-card">
+          <div class="video-card-top">
+            <img class="thumbnail-img" src="./img/video-cards/7_thumbnail.webp" />
+            <div class="video-time">2:50:13</div>
+          </div>
+          <div class="video-card-bottom">
+            <div class="">
+              <img class="profile-img" src="./img/video-cards/7_profile.jpg" />
+            </div>
+            <div class="video-card-bottom-right">
+              <p class="video-title"> Music Mix 2022 EDM Remixes of Popular Songs EDM Best Music </p>
+              <p class="video-author"> Magic Music </p>
+              <span class="material-icons check_circle">check_circle</span>
+              <p class="video-stats"> 2,8 mn visningar &#183; för 2 månader sedan </p>
+            </div>
+          </div>
+        </div>
+        <!-- Video 8 -->
+        <div class="video-card">
+          <div class="video-card-top">
+            <img class="thumbnail-img" src="./img/video-cards/8_thumbnail.webp" />
+            <div class="video-time">3:41</div>
+          </div>
+          <div class="video-card-bottom">
+            <div class="">
+              <img class="profile-img" src="./img/video-cards/8_profile.jpg" />
+            </div>
+            <div class="video-card-bottom-right">
+              <p class="video-title"> Belarusian Badass - Damn, he wasn't even a soldier! - His story </p>
+              <p class="video-author"> Voices for Ukraine </p>
+              <p class="video-stats"> 224 785 visningar &#183; för 8 dagar sedan </p>
+            </div>
+          </div>
+        </div>
+
+
+                <!-- Video 1 -->
+        <div class="video-card">
+          <div class="video-card-top">
+            <img class="thumbnail-img" src="./img/video-cards/1_thumbnail.webp" />
+            <div class="video-time">1:07</div>
+          </div>
+          <div class="video-card-bottom">
+            <div class="">
+              <img class="profile-img" src="./img/video-cards/1_profile.jpg" />
+            </div>
+            <div class="video-card-bottom-right">
+              <p class="video-title"> Ukrainian BTR-4 Neutralizes Russian Troops in Civil Areas </p>
+              <p class="video-author"> The Daily Unseen </p>
+              <p class="video-stats"> 303 006 visningar &#183; för 3 dagar sedan </p>
+            </div>
+          </div>
+        </div>
+        <!-- Video 2 -->
+        <div class="video-card">
+          <div class="video-card-top">
+            <img class="thumbnail-img" src="./img/video-cards/2_thumbnail.webp" />
+            <div class="video-time">3:13:18</div>
+          </div>
+          <div class="video-card-bottom">
+            <div class="">
+              <img class="profile-img" src="./img/video-cards/2_profile.jpg" />
+            </div>
+            <div class="video-card-bottom-right">
+              <p class="video-title"> Learn ASP.NET Core 3.1 - Full Course for Beginners [Tutorial] </p>
+              <p class="video-author"> freeCodeCamp.org  </p>
+              <span class="material-icons check_circle">check_circle</span>
+              <p class="video-stats"> 1,2 mn visningar &#183; för 2 år sedan </p>
+            </div>
+          </div>
+        </div>
+        <!-- Video 3 -->
+        <div class="video-card">
+          <div class="video-card-top">
+            <img class="thumbnail-img" src="./img/video-cards/3_thumbnail.webp" />
+            <div class="video-time">30:45</div>
+          </div>
+          <div class="video-card-bottom">
+            <div class="">
+              <img class="profile-img" src="./img/video-cards/3_profile.jpg" />
+            </div>
+            <div class="video-card-bottom-right">
+              <p class="video-title"> How to Improve a Games Performance to 'Perfection' | 10 Tip </p>
+              <p class="video-author"> YagmanX </p>
+              <p class="video-stats"> 65 684 visningar &#183; för 8 månader sedan </p>
+            </div>
+          </div>
+        </div>
+        <!-- Video 4 -->
+        <div class="video-card">
+          <div class="video-card-top">
+            <img class="thumbnail-img" src="./img/video-cards/4_thumbnail.webp" />
+            <div class="video-time">1:18</div>
+          </div>
+          <div class="video-card-bottom">
+            <div class="">
+              <img class="profile-img" src="./img/video-cards/4_profile.jpg" />
+            </div>
+            <div class="video-card-bottom-right">
+              <p class="video-title"> Ukraine war: Drone footage shows aftermath of Ukraine helicopter </p>
+              <p class="video-author"> The Sun  </p>
+              <span class="material-icons check_circle">check_circle</span>
+              <p class="video-stats"> 3,1 mn visningar &#183; för 4 dagar sedan </p>
+            </div>
+          </div>
+        </div>
+        <!-- Video 5 -->
+        <div class="video-card">
+          <div class="video-card-top">
+            <img class="thumbnail-img" src="./img/video-cards/5_thumbnail.webp" />
+            <div class="video-time">1:51</div>
+          </div>
+          <div class="video-card-bottom">
+            <div class="">
+              <img class="profile-img" src="./img/video-cards/5_profile.jpg" />
+            </div>
+            <div class="video-card-bottom-right">
+              <p class="video-title"> Witness Vapes & Starts Driving During Testimony </p>
+              <p class="video-author"> Law&Crime Network  </p>
+              <span class="material-icons check_circle">check_circle</span>
+              <p class="video-stats"> 4,5 mn visningar &#183; för 9 timmar sedan </p>
+            </div>
+          </div>
+        </div>
+        <!-- Video 6 -->
+        <div class="video-card">
+          <div class="video-card-top">
+            <img class="thumbnail-img" src="./img/video-cards/6_thumbnail.webp" />
+            <div class="video-time">11:18</div>
+          </div>
+          <div class="video-card-bottom">
+            <div class="">
+              <img class="profile-img" src="./img/video-cards/6_profile.jpg" />
+            </div>
+            <div class="video-card-bottom-right">
+              <p class="video-title"> Let's Talk About GWs May Release Schedule </p>
+              <p class="video-author"> Empire of Wargames </p>
+              <p class="video-stats"> 1821 visningar &#183; för 1 dag sedan </p>
+            </div>
+          </div>
+        </div>
+        <!-- Video 7 -->
+        <div class="video-card">
+          <div class="video-card-top">
+            <img class="thumbnail-img" src="./img/video-cards/7_thumbnail.webp" />
+            <div class="video-time">2:50:13</div>
+          </div>
+          <div class="video-card-bottom">
+            <div class="">
+              <img class="profile-img" src="./img/video-cards/7_profile.jpg" />
+            </div>
+            <div class="video-card-bottom-right">
+              <p class="video-title"> Music Mix 2022 EDM Remixes of Popular Songs EDM Best Music </p>
+              <p class="video-author"> Magic Music </p>
+              <span class="material-icons check_circle">check_circle</span>
+              <p class="video-stats"> 2,8 mn visningar &#183; för 2 månader sedan </p>
+            </div>
+          </div>
+        </div>
+        <!-- Video 8 -->
+        <div class="video-card">
+          <div class="video-card-top">
+            <img class="thumbnail-img" src="./img/video-cards/8_thumbnail.webp" />
+            <div class="video-time">3:41</div>
+          </div>
+          <div class="video-card-bottom">
+            <div class="">
+              <img class="profile-img" src="./img/video-cards/8_profile.jpg" />
+            </div>
+            <div class="video-card-bottom-right">
+              <p class="video-title"> Belarusian Badass - Damn, he wasn't even a soldier! - His story </p>
+              <p class="video-author"> Voices for Ukraine </p>
+              <p class="video-stats"> 224 785 visningar &#183; för 8 dagar sedan </p>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+      </div>
+    </main>
+  </body>
+</html>

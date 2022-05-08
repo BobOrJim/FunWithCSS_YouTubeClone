@@ -1,0 +1,105 @@
+/* för att spara variabler */
+:root {
+  --header-height: 57px; /* hämtat från youtube */
+  --sub-header-height: 56px; /* hämtat från youtube */
+  --sidebar-width: 72px; /* hämtat från youtube */
+  --hamburger-width: 72px;
+}
+
+@media screen and (max-width: 805px) {
+  :root {
+    /*    --header-height: 5rem;
+    --sub-header-height: 3rem;*/
+    --sidebar-width: 0;
+  }
+  aside,
+  .aside-li {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 660px) {
+  :root {
+  }
+
+  .search-bar-input {
+    display: none;
+  }
+  .keyboard-button {
+    display: none;
+  }
+  .search-button {
+    background-color: #ffffff;
+    border: none;
+  }
+  .voice-search-button {
+    background-color: #ffffff;
+  }
+  .header-section4 {
+    display: none;
+  }
+
+  .notifications-button {
+    margin-right: 0px;
+  }
+
+  .upload-button,
+  .youtube-apps-button {
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 530px) {
+  :root {
+    /*--header-section2-width: 0;*/
+  }
+
+  .header-section2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  :root {
+    /*--header-section2-width: 0;*/
+  }
+
+  .notifications-button {
+    display: none;
+  }
+  .voice-search-button {
+    display: none;
+  }
+}
+
+/* VIDEO GRID */
+
+@media screen and (min-width: 1800px) {
+  .video-card-wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1150px) and (max-width: 1799px) {
+  .video-card-wrapper {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 888px) and (max-width: 1149px) {
+  .video-card-wrapper {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 510px) and (max-width: 887px) {
+  .video-card-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 509px) {
+  .video-card-wrapper {
+    grid-template-columns: 1fr;
+  }
+}

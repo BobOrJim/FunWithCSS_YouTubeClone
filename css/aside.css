@@ -1,0 +1,38 @@
+aside {
+  background-color: #ffffff;
+  flex-direction: column;
+
+  min-width: var(--sidebar-width);
+  position: fixed;
+
+  top: calc(var(--header-height));
+  bottom: calc(var(--footer-height));
+  left: 0;
+  margin-top: -1px;
+}
+
+.aside-li {
+  width: var(--sidebar-width);
+  height: 74px; /* hämtat från youtube */
+  cursor: pointer;
+  flex-direction: column;
+}
+
+.aside-li:hover {
+  background-color: #eeeeee;
+}
+
+.aside-li span {
+  width: 24px; /* hämtat från youtube */
+  height: 24px; /* hämtat från youtube */
+  margin-bottom: 6px; /* hämtat från youtube */
+}
+
+.aside-li p {
+  font-size: 10px; /* hämtat från youtube */
+  text-align: center;
+  width: var(--sidebar-width);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

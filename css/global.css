@@ -1,0 +1,35 @@
+html,
+body,
+h {
+  font-family: Roboto, Arial; /* ärvs till inre containers */
+  color: rgb(3, 3, 3); /* hämtat från youtube, default text färg */
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.size24x24 {
+  width: 24px; /* hämtat från youtube */
+  height: 24px; /* hämtat från youtube */
+}
+.button40x40 {
+  flex: none;
+  width: 40px; /* hämtat från youtube */
+  height: 40px; /* hämtat från youtube */
+  cursor: pointer;
+  border: 0;
+}
